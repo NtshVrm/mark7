@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+
 textarea{
     width: 90%;
     height: 10vh;
     display:block;
     margin: 1rem;
     padding: 1rem;
-    
+
 }
