@@ -9,3 +9,15 @@ textarea{
     padding: 1rem;
 
 }
+
+.output-title{
+    font-size: larger;
+}
+
+#output-box{
+    border: 1px solid black;
+    height:10vh;
+    width:80%;
+    margin: 1rem;
+    padding: 1rem;
+}
