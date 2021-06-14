@@ -1,4 +1,6 @@
-console.log("Script for a js file");
-console.log('HEY');
+var btnTranslate = document.querySelector("#btn-translate");
 
-alert("This works");
+btnTranslate.addEventListener("click", function clickEventHandler(){
+    console.log("Clicked!");
+
+})
