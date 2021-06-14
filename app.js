@@ -4,7 +4,9 @@ var txtInput = document.querySelector("#txt-input");
 
 var outputDiv = document.querySelector("#output-box");
 
-var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+// var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+
+var serverURL = "https://api.funtranslations.com/translate/morse.json"
 
 function getTranslationURL(text) {
 
@@ -24,7 +26,9 @@ btnTranslate.addEventListener("click", function clickEventHandler() {
 
     // outputDiv.innerText = "TRANSLATED TEXT" + " from " + txtInput.value;
 
-    var inputText = txtInput.value; //input text
+    //input text
+
+    var inputText = txtInput.value; 
 
     //server call for processing
 
