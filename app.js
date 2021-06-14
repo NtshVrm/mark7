@@ -12,6 +12,11 @@ function getTranslationURL(text) {
 
 }
 
+function errorHandler(error){
+    console.log("Error Occured", error);
+    alert("Server Down, please try again later!");
+}
+
 
 
 
