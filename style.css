@@ -1,23 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1CD0D6;
+    --text-color:black ;
+    --button-color: #1CD0D6;
+    --width-break:600px
+}
 
 
-textarea{
-    width: 90%;
-    height: 10vh;
-    display:block;
-    margin: 1rem;
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding:1rem;
+    border-radius: 1rem;
+    margin:auto;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#input-box{
     padding: 1rem;
+}
 
+textarea{ 
+    box-sizing: border-box;
+    font-size: 30px;
+    width: 80%;
+    height: 10rem;
+    display: block;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin:auto;
+    
 }
 
 .output-title{
-    font-size: larger;
+    font-size: xx-large;
+    /* margin:auto; */
+    padding: 0.5rem;
+    text-align: center;
 }
 
 #output-box{
-    border: 1px solid black;
-    height:10vh;
+    display:block;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    height: 8rem;
     width:80%;
-    margin: 1rem;
+    margin: auto;
     padding: 1rem;
+    border-radius: 1rem;
+}
+
+button{
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: var(--button-color) ;
+    border-radius: 1rem;
+
+}
+
+.center{
+    text-align: center;
+}
+
+#button-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: larger;
+    /* color: var(--text-color); */
+    color: black;
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem ;
+    font-size: 1rem;
+    margin: 1rem;
+}
+.footer-header{
+    font-size: 1rem;
+    text-align: center;
+    color: var(--text-color);
 }

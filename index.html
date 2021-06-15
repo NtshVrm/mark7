@@ -12,18 +12,38 @@
 </head>
 
 <body>
-    <h1>Translator</h1>
+    <nav class="navigation container">
+        <div class="nav-brand">MORSE TRANSLATOR</div>
+    </nav>
 
     <!-- INPUT BOX -->
-    <textarea id="txt-input" placeholder="Enter English text here..."></textarea>
+    <div id="input-box">
+        <textarea id="txt-input" placeholder="Enter English text here..."></textarea>
+    </div>
+
 
     <!-- TRANSLATE BUTTON -->
-    <button id="btn-translate">Translate</button>
+    <div class="center">
+        <button id="btn-translate">
+            <div id="button-text">Translate</div>
+        </button>
+    </div>
+
+
+
 
     <div class="output-title">Morse Output ⬇ </div>
 
     <!-- OUTPUT BOX -->
     <div id="output-box"></div>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-header">ABOUT:The term Morse Code refers to either of two systems for representing letters of the
+            alphabet, numerals, and punctuation marks by an arrangement of dots, dashes, and spaces.</div>
+    </footer>
 
 
     <script src="app.js"></script>
